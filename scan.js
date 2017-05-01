@@ -1,0 +1,1 @@
+console.log("scan.js: There are no bluetooth devices found yet.");

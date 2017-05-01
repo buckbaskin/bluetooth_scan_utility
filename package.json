@@ -4,8 +4,9 @@
   "description": "A proof of concept to demonstrate the ability to scan for Bluetooth devices and get their RSSI using https://github.com/sandeepmistry/noble",
   "main": "scan.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev"
+    "preinstall": "sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev",
+    "start": "node scan.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
