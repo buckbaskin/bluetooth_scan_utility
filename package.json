@@ -1,0 +1,27 @@
+{
+  "name": "bluetooth_scan_utility",
+  "version": "0.1.0",
+  "description": "A proof of concept to demonstrate the ability to scan for Bluetooth devices and get their RSSI using https://github.com/sandeepmistry/noble",
+  "main": "scan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buckbaskin/bluetooth_scan_utility.git"
+  },
+  "keywords": [
+    "bluetooth",
+    "ble",
+    "node",
+    "nodejs",
+    "scanning",
+    "rssi"
+  ],
+  "author": "Buck Baskin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buckbaskin/bluetooth_scan_utility/issues"
+  },
+  "homepage": "https://github.com/buckbaskin/bluetooth_scan_utility#readme"
+}
