@@ -4,7 +4,8 @@
   "description": "A proof of concept to demonstrate the ability to scan for Bluetooth devices and get their RSSI using https://github.com/sandeepmistry/noble",
   "main": "scan.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "apt-get install bluetooth bluez libbluetooth-dev libudev-dev"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/buckbaskin/bluetooth_scan_utility/issues"
   },
-  "homepage": "https://github.com/buckbaskin/bluetooth_scan_utility#readme"
+  "homepage": "https://github.com/buckbaskin/bluetooth_scan_utility#readme",
+  "dependencies": {
+    "noble": "1.8.1"
+  }
 }
