@@ -6,7 +6,9 @@
   "scripts": {
     "preinstall": "sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev",
     "start": "node scan.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
   },
   "homepage": "https://github.com/buckbaskin/bluetooth_scan_utility#readme",
   "dependencies": {
-    "noble": "1.8.1"
-  }
+    "noble": "1.8.1",
+    "snyk": "^1.41.0"
+  },
+  "snyk": true
 }
